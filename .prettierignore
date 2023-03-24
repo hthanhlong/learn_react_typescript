@@ -1,0 +1,11 @@
+yarn.lock
+package-lock.json
+Dockerfile
+Jenkinsfile
+nginx
+.dockerignore
+docker-compose.yml
+clean.sh
+node_modules
+deploy.sh
+jsonfig.json
