@@ -1,7 +1,7 @@
-import './App.css'
+import { MainLayout } from './components'
 
 function App() {
-  return <div className="App"></div>
+  return <MainLayout>hello</MainLayout>
 }
 
 export default App

@@ -1,11 +1,11 @@
-import React, { Children } from "react";
+import React, { Children, ReactNode } from 'react'
 
 interface Props {
-  children: any;
+  children: ReactNode
 }
 
 const MainLayout = ({ children }: Props) => {
-  return <div>{children}</div>;
-};
+  return <div className="max-w-5xl text-center m-auto">{children}</div>
+}
 
-export default MainLayout;
+export default MainLayout
